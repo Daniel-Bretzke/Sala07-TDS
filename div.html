@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Div</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
+    <button id="voltar" onclick="window.location.href='index.html'">Voltar</button>
     <h1>Cálculo de divisão</h1>
     <br>
-    <label for="n1">Digite o 1º número</label><br>
-    <input type="number" id="n1"><br>
-    <label for="n2">Digite o 2º número</label><br>
-    <input type="number" id="n2"><br>
-    <button onclick="div()">Calcular</button>
-    <h2 id="respDiv"></h2>
+    <label class="digite" for="n1">Digite o 1º número</label><br>
+    <input class="input" type="number" id="n1"><br>
+    <label class="digite" for="n2">Digite o 2º número</label><br>
+    <input class="input" type="number" id="n2"><br>
+    <button id="calcular" onclick="div()">Calcular</button>
+    <h2 class="text resp" id="respDiv"></h2>
     <script src="script.js"></script>
 </body>
 </html>

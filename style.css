@@ -4,23 +4,83 @@ body{
     height: 100vh;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-button{
-    background-color: rgb(157, 21, 255);;
-    color: #fff;
+button {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(157, 21, 255);
     border: none;
     padding: 10px;
     border-radius: 999px;
     font-size: 20px;
-    border: 2px solid rgb(168, 168, 169);;
+    border: 2px solid rgb(168, 168, 169);
     cursor: pointer;
     transition: all 200ms linear;
+
+    width: 200px;
+}
+
+.digite{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 999px;
+    background-color: purple;
+}
+
+.input{
+    margin-top: -40px;
+    width: 230px;
+    height: 30px;
+    border-radius: 999px;
+    border: none;
+    padding: 10px;
 }
 
 button:hover{
     background-color: transparent;
     border: 2px solid rgb(46, 131, 229);
     box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.resp{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(157, 21, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    border: 2px solid rgb(168, 168, 169);
+    transition: all 200ms linear;
+    margin-top: 2px;
+}
+
+#calcular{
+    margin-top: -20px;
+}
+
+#voltar{
+    margin-top: 20px;
+    margin-left: -1150px;
+    width: 100px;
+}
+
+#media{
+    margin-top: 10px;
+}
+
+#voltarMedia{
+    margin-top: 100px;
+    margin-left: -1150px;
+    width: 100px;
 }

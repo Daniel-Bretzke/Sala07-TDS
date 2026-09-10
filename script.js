@@ -41,10 +41,9 @@ function media(){
     var n2 = document.getElementById("n2").valueAsNumber
     var n3 = document.getElementById("n3").valueAsNumber
     var n4 = document.getElementById("n4").valueAsNumber
-    var n5 = document.getElementById("n5").valueAsNumber
     var resposta = document.getElementById("respMedia")
 
-    resposta.textContent = (n1+n2+n3+n4+n5)/5
+    resposta.textContent = (n1+n2+n3+n4)/4
     if(resposta >= 7){
         resposta.style.color = 'green'
     }else{

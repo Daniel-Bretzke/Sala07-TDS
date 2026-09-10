@@ -1,1 +1,2 @@
-# sala07-tds
+# exercício calculadora SENAI
+
